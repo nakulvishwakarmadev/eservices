@@ -1,0 +1,7 @@
+
+const PAYSOURCE = "sabPaisa";
+const STATUS_ALL = "All";
+const STATUS_ACTIVE = "A";
+const STATUS_INACTIVE = "I";
+
+export { PAYSOURCE, STATUS_ALL, STATUS_ACTIVE, STATUS_INACTIVE };
