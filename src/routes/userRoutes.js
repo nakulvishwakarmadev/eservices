@@ -4,9 +4,8 @@ import { getActiveUsersByLoginId, getUserById, getUsers, getUsersByLoginId } fro
 import { validateLoginId, validateUserId } from "../middelwares/inputValidator.js";
 
 const router=express.Router();
-console.log(`this is new changes to commit`);
-console.log(`this is my second changes to commit`);
-console.log(`this is my 3rd time changes to commit`);
+console.log(`this is new changes to commit to eservicesv2`);
+
 router.get("/:id",getUserById);
 router.post("/",validateUserId,getUsers);
 router.post("/getUsersByLoginId", validateLoginId,getUsersByLoginId);
