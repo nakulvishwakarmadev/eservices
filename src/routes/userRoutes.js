@@ -5,6 +5,7 @@ import { validateLoginId, validateUserId } from "../middelwares/inputValidator.j
 
 const router=express.Router();
 console.log(`this is new changes to commit`);
+console.log(`this is my second changes to commit`);
 router.get("/:id",getUserById);
 router.post("/",validateUserId,getUsers);
 router.post("/getUsersByLoginId", validateLoginId,getUsersByLoginId);
